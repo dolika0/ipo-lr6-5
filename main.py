@@ -8,6 +8,7 @@
 
 '''
 
+
 import random # Подключаем библиотеку 
 
 elements = [random.randint(-50,50) for i in range(25)] # Генерируем список
@@ -38,13 +39,13 @@ print("Все нулевые элементы: ", nulevElem, "\n") # Вывод 
 
 lenElements = len(elements) # Длина массива
 persen_polozh = polozh/lenElements * 100 # Нахождение процента
-print("Количество положительных элементов : {0} ,\n процент от общего количества {1}  % \n".format(polozh, persen_polozh)) # Вывод на экран
+print("Количество положительных элементов : {0} ,\nпроцент от общего количества {1}  % \n".format(polozh, persen_polozh)) # Вывод на экран
 
 persen_otricat = otricat/lenElements * 100 # Нахождение процента
-print("Количество отрицательных элементов : {0} ,\n процент от общего количества {1}  % \n".format(otricat, persen_otricat)) # Вывод на экран
+print("Количество отрицательных элементов : {0} ,\nпроцент от общего количества {1}  % \n".format(otricat, persen_otricat)) # Вывод на экран
 
 persen_nulev = nulev/lenElements * 100 # Нахождение процента
-print("Количество нулевых элементов : {0} ,\n процент от общего количества {1}  % \n".format(nulev, persen_nulev)) # Вывод на экран
+print("Количество нулевых элементов : {0} ,\nпроцент от общего количества {1}  % \n".format(nulev, persen_nulev)) # Вывод на экран
 
 print("Элемент с максимальным значением: ", max(elements), "\n") # Вывод на экран 
 print("Элемент с минимальным значением: ", min(elements), "\n") # Вывод на экран
